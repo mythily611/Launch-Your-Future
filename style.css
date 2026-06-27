@@ -101,13 +101,19 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-.image1,
+nav h1{
+    width:100%;
+    text-align: center;
+    margin: 10px 0;
+    padding: o;
+}
+.image1{
+    display: block;
+    margin: 20px auto;
+}
 .image2,
 .image3{
-    float: none;
-    position: static;
-    display: block;
-    margin: 15px auto;
+    display:none;
 }
 .one{
     width:90%;
