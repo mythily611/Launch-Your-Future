@@ -90,3 +90,33 @@ transform: scale(1.05);
 }.colo{
     color: #6D28D9;
 }
+@media screen and (max-width:768px){
+
+.hello{
+    padding-right: 0;
+    padding-top: 10px;
+    text-align: center;
+}    
+nav{
+    flex-direction: column;
+    align-items: center;
+}
+.image1,
+.image2,
+.image3{
+    float: none;
+    position: static;
+    display: block;
+    margin: 15px auto;
+}
+.one{
+    width:90%;
+    height:auto;
+}
+button{
+    width:80%;
+}
+.end{
+    text-align:center;
+}
+}
